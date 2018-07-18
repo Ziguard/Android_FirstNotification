@@ -7,6 +7,7 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:background="@color/colorPrimary"
+        android:onClick="onClickBoutonAutorisation"
         android:padding="@dimen/detail_padding_bouton"
         android:text="@string/detail_bouton_autorisation"
         android:textColor="@android:color/white"

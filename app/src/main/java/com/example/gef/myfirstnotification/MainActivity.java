@@ -28,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && manager != null)
         {
             // description du groupe :
-            NotificationChannel channel = new NotificationChannel(ID_CHANNEL, "Nom du groupe",
-            NotificationManager.IMPORTANCE_HIGH);
+            NotificationChannel channel = new NotificationChannel(ID_CHANNEL, getString(R.string.main_nom_channel),
+                    NotificationManager.IMPORTANCE_HIGH);
 
-            channel.setDescription("Description du groupe");
+            channel.setDescription(getString(R.string.main_description_channel));
             channel.enableLights(true);
+
             // comportement des notifications du groupe :
             channel.setLightColor(Color.RED);
             channel.enableVibration(true);
