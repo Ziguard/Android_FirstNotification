@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstNotification</string>
+
+    <string name="main_bouton_detail">Afficher page détail</string>
+    <string name="main_nom_channel">Groupe notifications permissions</string>
+    <string name="main_description_channel">Description du groupe notifications permissions</string>
+    <string name="main_nom_notification">Notification d\'exemple</string>
+    <string name="main_description_notification">Description de la notification</string>
+
+    <string name="detail_bouton_autorisation">Autorisation caméra</string>
+
+</resources>
